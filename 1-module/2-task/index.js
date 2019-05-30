@@ -12,6 +12,8 @@ function print (text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid (name) {
+    return name !== undefined && name !== null && name!== " " && name.length >=4 && !(/\s/.test(name))
+
 }
 
 function sayHello () {
