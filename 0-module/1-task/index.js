@@ -4,6 +4,9 @@
  * @param {number} n index
  * @returns {number}
  */
-function sum (m, n) {
+function sum(m, n) {
+    let bigSum;
+    bigSum = m + n;
+    return bigSum;
 
 }
