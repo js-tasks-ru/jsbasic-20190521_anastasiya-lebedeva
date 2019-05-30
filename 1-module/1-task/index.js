@@ -4,6 +4,11 @@
  * @param {number} n index
  * @returns {number}
  */
-function pow (m, n) {
+function pow(m, n) {
 
+    let result = 1;
+    for (i = 1; i <= n; i++) {
+        result = result * m;
+    }
+    return result;
 }
